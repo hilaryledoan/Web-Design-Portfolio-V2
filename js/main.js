@@ -137,15 +137,6 @@
         $(this).removeClass('used');
     });
 
-    //pop up porfolio
-    $('.portfolio-image li a').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true
-      }
-      // other options
-    });
-    
     //Skill
     jQuery('.skillbar').each(function() {
       jQuery(this).appear(function() {
@@ -159,7 +150,16 @@
 
   
   });
-  
+
+    //pop up porfolio
+    $('.portfolio-image li a').magnificPopup({
+      type: 'image',
+      gallery: {
+        enabled: true
+      }
+      // other options
+    });
+      
     
   //header
   function inits() {
