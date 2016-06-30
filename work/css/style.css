@@ -1786,3 +1786,193 @@ p.copyright {
   }
 
 }
+
+/*---------------------------------------
+   SECTION:  FEATURES                 
+-----------------------------------------*/
+
+.dark-text {
+  text-align: center;
+}
+
+.features {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background: #ffffff;
+}
+
+.features .features-left {
+    text-align: right;
+    margin-top: 26px;
+    margin-bottom: 80px;
+}
+
+.features .features-left .icon-container {
+    float: right;
+    margin-left: 20px;
+}
+
+.features .features-right {
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: 80px;
+}
+
+.features .features-right .icon-container {
+    float: left;
+    margin-right: 20px;
+}
+
+.features .feature {
+    margin-bottom: 40px;
+}
+
+.features .feature .icon-container {
+    display: block;
+    min-height: 120px;
+    margin-top: 5px;
+}
+
+.features .feature .icon-container .icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    line-height: 55px;
+    font-size: 18px;
+    text-align: center;
+    -webkit-transition: all ease-in 0.25s;
+            transition: all ease-in 0.25s;
+    -webkit-background-clip: padding-box;
+           -moz-background-clip: padding;
+            background-clip: padding-box;
+}
+
+.features .phone-image {
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.features .phone-image img {
+    width: 100%;
+}
+
+.section-header {
+    padding-bottom: 78px;
+}
+
+.section-header h2 {
+    margin-bottom: 20px;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.section-header .section-description {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* icons */
+
+.color-overlay {
+     background: rgba(0, 0, 0, 0.45); 
+   /* background: url(../patterns/06.png); */
+}
+
+.standard-button {
+    background: #ed4d2b;
+}
+
+.standard-button2 {
+    background: #ed4d2b;
+}
+
+.standard-button2:hover {
+    background: #006f7c;
+}
+
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+    background: #006f7c;
+    border-color: inherit;
+}
+
+.colored-line,
+.colored-line-left {
+    background: #ed4d2b;
+}
+
+.main-color {
+    /*color: #ed4d2b;*/
+    text-transform: capitalize;
+}
+
+.color-bg {
+  background: #ed4d2b;
+  color: #FFFFFF;
+}
+
+.features .feature:hover .icon-container .icon {
+    background: #ed4d2b;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 0px 2px #ed4d2b;
+            box-shadow: 0px 0px 0px 2px #ed4d2b;
+}
+
+.features .feature .icon-container .icon {
+    border: 1px solid #ed4d2b;
+    color: #ed4d2b;
+}
+
+.feature-list li i {
+    color: #ed4d2b;
+}
+
+.services .single-service .service-icon,
+.services .single-service h3 {
+    color: #ed4d2b;
+}
+
+.screenshots .owl-theme .owl-controls .owl-page span {
+    background: #ed4d2b;
+}
+
+footer .contact-button {
+    border: 2px solid #ed4d2b;
+    color: #ed4d2b;
+}
+
+footer .contact-button:hover {
+    background: #ed4d2b;
+}
+
+footer .contact-box .expanded-contact-form .input-box:active,
+footer .contact-box .expanded-contact-form .textarea-box:active,
+footer .contact-box .expanded-contact-form .input-box:focus,
+footer .contact-box .expanded-contact-form .textarea-box:focus {
+    border: 1px solid #ed4d2b;
+}
+
+footer .social-icons li a:hover {
+    color: #ed4d2b;
+}
+
+.colored-line, .colored-line-left {
+    background: #0196a7;
+}
+
+.colored-line {
+    margin: auto;
+    z-index: 1;
+    width: 165px;
+    height: 1px;
+}
+

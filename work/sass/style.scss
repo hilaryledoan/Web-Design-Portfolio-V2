@@ -1,8 +1,8 @@
 // Fonts
 
 
-$font-roboto: 'Roboto', arial, sans-serif;
-$font-robotoslab: 'Roboto Slab', arial, sans-serif;
+$font-lato: 'lato', arial, sans-serif;
+$font-latoslab: 'lato', arial, sans-serif;
 
 // Overrides
 $grid-gutter-width: 50px !default; 
@@ -87,7 +87,7 @@ $navbar-height:                  80px !default;
 
 // Template Base
 body {
-	font-family: $font-roboto;
+	font-family: $font-lato;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 26px;
@@ -105,7 +105,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	color: $brand-black;
-	font-family: $font-robotoslab;
+	font-family: $font-latoslab;
 	margin-top: 0;
 	margin-bottom: 20px;	
 	font-weight: 300;
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 			padding-right:  0px;
 		}
 		li {
-			font-family: $font-roboto;
+			font-family: $font-lato;
 			a {
 				font-size: 16px;
 				text-transform: uppercase;
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 		// padding-top: 50px;
 		display: block;
 		padding-bottom: 1em;
-		font-family: $font-robotoslab;
+		font-family: $font-latoslab;
 		background: $brand-primary;
 		color: $brand-white;
 	}
@@ -206,14 +206,14 @@ h1, h2, h3, h4, h5, h6 {
 	.intro-lead {
 		font-size: 50px;
 		line-height: 60px;
-		font-family: $font-robotoslab;
+		font-family: $font-latoslab;
 	}
 }
 .section-lead {
 	font-size: 40px;
 	line-height: 50px;
 	margin-bottom: 1em;
-	font-family: $font-robotoslab;
+	font-family: $font-latoslab;
 }
 #fh5co-portfolio {
 	margin-bottom: 7em;
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 				padding: 1em;
 			}
 			h2 {
-				font-family: $font-robotoslab;
+				font-family: $font-latoslab;
 				font-size: 30px;
 				line-height: 34px;
 				font-weight: 300;
@@ -871,13 +871,13 @@ pre {
 				margin-bottom: 30px;
 				text-transform: uppercase;
 				letter-spacing: 1px;
-				font-family: $font-robotoslab;
+				font-family: $font-latoslab;
 			}
 			.fh5co-sub-lead {
 				font-size: 30px;
 				line-height: 42px;
 				font-weight: 100;
-				font-family: $font-roboto;
+				font-family: $font-lato;
 			}
 		}
 	}

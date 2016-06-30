@@ -1262,3 +1262,79 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+
+
+/*---------------------------------------
+   SECTION:  FEATURES                 
+-----------------------------------------*/
+
+.features {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background: #ffffff;
+}
+
+.features .features-left {
+    text-align: right;
+    margin-top: 26px;
+    margin-bottom: 80px;
+}
+
+.features .features-left .icon-container {
+    float: right;
+    margin-left: 20px;
+}
+
+.features .features-right {
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: 80px;
+}
+
+.features .features-right .icon-container {
+    float: left;
+    margin-right: 20px;
+}
+
+.features .feature {
+    margin-bottom: 40px;
+}
+
+.features .feature .icon-container {
+    display: block;
+    min-height: 120px;
+    margin-top: 5px;
+}
+
+.features .feature .icon-container .icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    line-height: 55px;
+    font-size: 18px;
+    text-align: center;
+    -webkit-transition: all ease-in 0.25s;
+            transition: all ease-in 0.25s;
+    -webkit-background-clip: padding-box;
+           -moz-background-clip: padding;
+            background-clip: padding-box;
+}
+
+.features .phone-image {
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.features .phone-image img {
+    width: 100%;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
