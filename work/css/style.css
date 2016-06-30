@@ -221,7 +221,6 @@ p {
 
 .btn-primary {
   text-transform: uppercase;
-  background-color: #fc6e51;
   border-color: #fc6e51;
 }
 
@@ -1928,8 +1927,8 @@ p.copyright {
 }
 
 .features .feature .icon-container .icon {
-    border: 1px solid #ed4d2b;
-    color: #ed4d2b;
+    border: 1px solid #9e8b8b;
+    color: #9e8b8b;
 }
 
 .feature-list li i {
@@ -1966,7 +1965,7 @@ footer .social-icons li a:hover {
 }
 
 .colored-line, .colored-line-left {
-    background: #0196a7;
+    background: #ed4d2b;
 }
 
 .colored-line {
@@ -1975,4 +1974,5 @@ footer .social-icons li a:hover {
     width: 165px;
     height: 1px;
 }
+
 
