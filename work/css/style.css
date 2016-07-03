@@ -1033,6 +1033,10 @@ ul.filter-list li:last-child a:after {
   width: 100%;
 }
 
+.iphone img {
+  width: 60%;
+}
+
 .project-title {
   padding: 30px 0;
   text-align: center;
@@ -1973,6 +1977,12 @@ footer .social-icons li a:hover {
     z-index: 1;
     width: 165px;
     height: 1px;
+}
+
+.space-bar {
+    width: 100%;
+    background-color: #FAFAFA;
+    height: 2.5vw;
 }
 
 
