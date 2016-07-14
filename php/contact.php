@@ -71,7 +71,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
-	echo "<div class='notification success clearfix'><p>Thank you <strong>$name</strong>, your message has been submitted to us.</p></div>";
+	echo "<div class='notification success clearfix'><p>Thank you <strong>$name</strong>, your message has been submitted, I'll be in touch soon.</p></div>";
 	echo "</div>";
 	echo "</fieldset>";
 
